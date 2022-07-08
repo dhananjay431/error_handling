@@ -1,0 +1,4 @@
+<button (click)="callChange()">change</button>
+<div *ngIf="data | async as d">
+  {{ d | json }}
+</div>
